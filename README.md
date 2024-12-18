@@ -8,6 +8,10 @@ This project was created with two classmates Amei & Jihyun in October & November
 **Data Collection:**
 User book data from Goodreads was compiled into the “CS291 Library User Data” spreadsheet, including usernames, reading histories, genres, and ratings. Data was prioritized for users with at least one shared book to enhance the recommendation algorithm.
 
+
+[CS291 Library User Data - Sheet1.pdf](https://github.com/user-attachments/files/18186247/CS291.Library.User.Data.-.Sheet1.pdf)
+
+
 **Program Creation:**
 The program was developed orgiginally in Google Colab using Python, NetworkX for graph modeling, and Matplotlib for visualization. Reader history data from the spreadsheet was imported into a bipartite graph based on code from Introduction to Operating Systems. ChatGPT and Gemini refined the recommendation methods within the existing ResourceAllocationGraph class.
 
