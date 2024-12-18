@@ -1,4 +1,8 @@
 from Library_Data import rag
 
-user_name = input("Enter your name to get book recommendations: ")
-rag.get_recommendation(user_name)
+def main():
+    user_name = input("Enter your name to get book recommendations: ")
+    rag.get_recommendation(user_name)
+
+if __name__ == "__main__":
+    main()

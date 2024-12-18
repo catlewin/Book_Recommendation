@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9611c7cb-f562-4f9a-b40f-8e8b232135fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Library_Data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RAG_Class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library_Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAG_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG_Class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734467800151</updated>
-      <workItem from="1734467801185" duration="2238000" />
+      <workItem from="1734467801185" duration="3206000" />
     </task>
     <servers />
   </component>
@@ -83,6 +84,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Book_Recommendation$main.coverage" NAME="main Coverage Results" MODIFIED="1734537347684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Book_Recommendation$main.coverage" NAME="main Coverage Results" MODIFIED="1734537549846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

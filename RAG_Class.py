@@ -1,7 +1,8 @@
 import networkx as nx  # for graphs
 import matplotlib.pyplot as plt  # visualization
 
-# Class defined in Amei's classroom
+# Class originally defined in Amei's classroom
+# Methods added: get_similar_users, recommend_book, & get_recommendation
 class ResourceAllocationGraph:
   def __init__(self, readers, booksread):
     # Initialize an empty graph
@@ -45,6 +46,8 @@ class ResourceAllocationGraph:
     plt.title('What Books Have They Read?')
     plt.show()
 
+  # get_similar_users: compare target reader's book ratings w/other reader's rating
+  #                    based on books they’ve both read
   def get_similar_users(self, target_reader):
     similarities = []
     for reader in self.readers:
@@ -58,6 +61,8 @@ class ResourceAllocationGraph:
     similarities.sort()  # Sort by similarity
     return [reader for _, reader in similarities]
 
+  # recommend_book: recommends books that similar users rated highly
+  #                 but the target reader has not read
   def recommend_book(self, reader):
     similar_readers = self.get_similar_users(reader)
     books_read_by_reader = set(self.graph.successors(reader))
@@ -69,6 +74,8 @@ class ResourceAllocationGraph:
             return book
     return None  # No recommendation found
 
+  # get_recommendation: provide recommendation & ask for feedback from the user
+  #                     if recommendation disliked, suggest a different book
   def get_recommendation(self, reader):
 
     recommendations_made = [] #store all recs

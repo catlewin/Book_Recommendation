@@ -1,5 +1,6 @@
 from RAG_Class import ResourceAllocationGraph
 
+# Create list of readers and books
 readers = ['Cat', 'Amei', 'Jihyun', 'Shannon', 'James', 'Rick', 'J', 'Annie',
            'Jess', 'Jessica', 'Matthew', 'Miranda', 'Whitney']
 
@@ -15,7 +16,7 @@ Booksread = ['Twilight', 'Divine Rivals', 'Fated Blades', 'Scorpion', 'Icebreake
 
 rag = ResourceAllocationGraph(readers, Booksread)
 
-# Adding some edges with weights as user ratings (1-5 scale)
+# Add edges between readers and booksread with weight rating (1-5 stars)
 
 #twilight
 rag.add_edge('Cat', 'Twilight', weight = 3)
